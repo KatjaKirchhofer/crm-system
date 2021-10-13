@@ -1,0 +1,56 @@
+.example-container {
+    height: 100vh;
+
+   
+
+    .toolbar-headline {
+        margin-left: 10px;
+    }
+}
+.sidenav {
+    width: 200px;
+  
+
+   
+}
+mat-icon {
+    cursor: pointer;
+}
+.logo-container {
+    border-bottom: 1px solid rgba(0,0,0,0.04);
+    padding-right: 16px;
+    padding-left: 16px;
+    display: flex;
+    align-items: center;
+    p {
+        margin-bottom: 0;
+    }
+}
+
+mat-toolbar, .logo-container {
+    height: 64px;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+li {
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:hover {
+        background-color: rgba(0,0,0,0.04);
+    }
+
+    mat-icon {
+        padding-right: 5px;
+    }
+}
+.router-container {
+    padding-left: 56px;
+    padding-top: 16px;
+}
