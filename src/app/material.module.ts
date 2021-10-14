@@ -8,7 +8,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatDialogModule } from '@angular/material/dialog';
-import {MatFormFieldModule} from '@angular/material/form-field';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 
 
 @NgModule({
@@ -19,7 +22,11 @@ import {MatFormFieldModule} from '@angular/material/form-field';
         MatButtonModule,
         MatTooltipModule,
         MatDialogModule,
-        MatFormFieldModule
+        MatFormFieldModule,
+        MatInputModule,
+        MatDatepickerModule,
+        MatNativeDateModule
+        
     ],
     exports: [
         MatToolbarModule, 
@@ -28,7 +35,10 @@ import {MatFormFieldModule} from '@angular/material/form-field';
         MatButtonModule,
         MatTooltipModule,
         MatDialogModule,
-        MatFormFieldModule
+        MatFormFieldModule,
+        MatInputModule,
+        MatDatepickerModule, 
+        MatNativeDateModule
     ]
 
 })
