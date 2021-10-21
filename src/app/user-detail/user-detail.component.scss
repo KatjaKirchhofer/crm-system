@@ -1,0 +1,24 @@
+.header-card {
+    min-height: 250px;
+    background-color: sandybrown;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+}
+.user-details {
+    margin-left: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    h2 {
+        margin-bottom: 0;
+    }
+}
